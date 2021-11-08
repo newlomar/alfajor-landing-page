@@ -3,8 +3,41 @@
 * {
   padding: 0;
   margin: 0;
-  max-width: 100%;
-  overflow-x: hidden;
-  position: relative;
-  display: block;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, rgba(67,31,33,1) 43%, rgba(0,0,0,1) 100%);
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a, a:visited {
+  color: #f3d389;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.logo {
+  width: 120px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav__list-item a {
+  color: #f3d389;
 }
