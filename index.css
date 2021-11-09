@@ -1,4 +1,4 @@
-/* Magic combo being testes in production */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
   padding: 0;
@@ -9,15 +9,11 @@ body {
   min-height: 100vh;
   background: linear-gradient(180deg, rgba(67,31,33,1) 43%, rgba(0,0,0,1) 100%);
   background-repeat: no-repeat;
+  font-family: 'Bebas Neue', cursive;
 }
 
 ul {
   list-style-type: none;
-}
-
-a, a:visited {
-  color: #f3d389;
-  text-decoration: none;
 }
 
 .header {
@@ -47,8 +43,28 @@ a, a:visited {
 .nav__list--primary {
   margin: 0 auto;
   display: flex;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
-.nav__list-item a {
+.nav__list-item a,
+.nav__list-item a:visited {
   color: #f3d389;
+  text-decoration: none;
+  font-size: 1.5rem;
+  letter-spacing: 1.3px;
+}
+
+.nav__list-item a:hover {
+  color: #fff;
+}
+
+.nav-button {
+  padding: 1rem;
+  background: #fff;
+  border-radius: 50px;
+}
+
+.nav-button:hover {
+  background: #f3d389;
 }
